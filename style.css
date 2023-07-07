@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+}
+
+header{
+    background-color: #333;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.left-nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.left-nav li{
+    margin-right: 10px;
+}
+
+.left-nav li a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.container .left-nav ul li a:hover{
+    color: #ff9800;
+}
+
+.right-nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.right-nav li{
+    margin-left: 10px;
+}
+
+.right-nav li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.txtonimg{
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtonimg .content{
+    text-align: center;
+}
+ 
+.txtonimg .content h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 350px;
+}
+
+.txtonimg .content p{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.content span{
+    font-size: 50px;
+    color: blue;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #ff9800;
+}
+
+.latest{
+    background-color: #fff;
+    padding: 40px;
+}
+
+.latest h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: blue;
+}
+
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.jobs img{
+    width: 100%;
+    max-width: 250px;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.jobs h3{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.jobs p{
+    font-size: 16px;
+    color: #888;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.jobs .btn1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.jobs .btn1:hover{
+    background-color: #ff9800;
+}
+
+.about{
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+.about h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact{
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.contact p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #ff9800;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.social-icons a:hover{
+    background-color: #ff9800;
+    color: #fff;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
